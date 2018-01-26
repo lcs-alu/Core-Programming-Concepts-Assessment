@@ -24,6 +24,18 @@
  
  */
 // Answer question 2 below
+// Define all the elements
+let theNameOfTheBook = "Alisa's book"
+var copiesSold = 10
+let theNameOfTheAuthor = "Alisa"
+var sellingPrice = 100
+let yearPublished = "2018"
+
+// The reason to choose
+print("Constants can be something that will not be able to change such as a name of a time.")
+print("So I used constants for the name, author, and the year")
+print("Variable can be something that may change and a number")
+print("So I used variables for the amount sold and the price")
 
 /*:
  ## Now share your understanding
