@@ -24,7 +24,14 @@ let temperatureInCelsius = -6
 let isSnowMakingEquipmentBroken = true
 
 // Answer question 5 below
-
+// Create a state ment of the skiing hill open
+if newSnowfallAmount > 10 || temperatureInCelsius < -5 && isSnowMakingEquipmentBroken == false {
+    // Print the statement when the requirements are obtained
+    print("We're open!")
+} else {
+    // Print the statement otherwise
+    print("We're cloed")
+}
 
 /*:
  ## Now share your understanding
