@@ -23,7 +23,29 @@
  
  */
 // Answer question 3 below
+// Create a variable of money
+var spendingMoney : Double = 0
 
+// After grandparents give 50 dollars
+spendingMoney += 50
+
+// Spending money with housemates
+spendingMoney *= 2/3
+
+// Bet with friends and get 10 dollars
+spendingMoney += 10
+
+// Bet with friends and give 10 dollars
+spendingMoney -= 10
+
+// Buying at Foodland
+spendingMoney -= 5.50
+
+// Uncles doubles the money
+spendingMoney *= 2
+
+// The total amount of money
+print(spendingMoney)
 /*:
  ## Now share your understanding
  
